@@ -1,1 +1,1 @@
-streamlit_pandas_profiling
+py -m pip install streamlit_pandas_profiling
