@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Weather Project</title>
+    <title>Two Big Buttons</title>
     <style>
       /* Center the buttons */
       body {
@@ -9,6 +9,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+        padding: 2 rem;
       }
       
       /* Style the buttons */
@@ -26,6 +27,7 @@
         font-size: 48px;
         text-align: center;
         margin: 0;
+        margin-right: 4 rem;
       }
       /* Style the first button */
       #button1 {
@@ -37,16 +39,21 @@
         background-color: #008CBA;
       }
       #button3 {
-        background-color: #008CBA;
+        background-color: #e20b0b;
+      }
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
     </style>
   </head>
   <body>
-    <h1>Analysis and Implementation of Weather Forecasting</h1>
+    <h1>Analysis and Implementation of <br> Weather Forecasting</h1>
     <div class="button-container">
-    <a href="https://anuragmukati-weather-forecasting.streamlit.app/"><button id="button1">Prediction of Weather</button></a>
-    <a href="https://anuragmukati-weather-forecasting-using-ml.streamlit.app/"><button id="button2">Histocal Data Pattern</button></a>
-    <a href="Climate_Report.html"><button id="button3">Data Analysis</button></a> 
+    <a href="https://anuragmukati-weather-forecasting.streamlit.app/"><button id="button1">Prediction of Weather</button></a><br>
+    <a href="https://anuragmukati-weather-forecasting-using-ml.streamlit.app/"><button id="button2">Histocal Data Pattern</button></a><br>
+    <a href="Climate_Report.html"><button id="button3">Weather Data Analysis</button></a>
     </div>
   </body>
 </html>
